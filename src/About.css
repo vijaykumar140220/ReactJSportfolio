@@ -1,0 +1,74 @@
+/* src/components/AboutMe.css */
+
+
+.About{
+    display: flex;
+    padding: 2rem;
+    margin: 2rem 0;
+    border-radius: 5px;
+    height: 70vh;
+}
+
+.about-me {
+    margin: 10px 30px;
+  }
+  
+  .about-me h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  .about-me h3{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .about-me p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  .education-list {
+    list-style: none;
+  }
+  
+  .education-list li {
+    margin-bottom: 1rem;
+  }
+  
+  .education-list strong {
+    font-weight: bold;
+  }
+  
+  .school {
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  .grade {
+    font-weight: bold;
+    color: #28a745;
+  }
+  .profile img{
+    height: 400px;
+    width: 400px;
+    border-radius: 50px;
+  }
+
+
+  @media only screen and (max-width: 600px){
+    .profile img{
+      height: 250px;
+      width: 300px;
+      border-radius: 50px;
+    }
+    .profile{
+      text-align: center;
+    }
+    .About{
+      display: block;
+    }
+    
+  }
+  

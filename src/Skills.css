@@ -1,0 +1,93 @@
+/* src/Skills.css */
+/* src/components/Skills.css */
+
+.skills {
+  background-color: #fff;
+  padding: 2rem;
+  margin: 2rem 0;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.skills h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.skill-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skill-list li {
+  background-color: #007bff;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  margin: 0.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 0.85rem;
+}
+
+
+.card {
+  cursor: pointer;
+}
+
+.card-inner {
+  transition: transform 0.5s;
+  backface-visibility: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.front {
+  background-color: #3498db;
+  color: white;
+}
+
+.back {
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.card.flipped .front {
+  transform: rotateY(180deg);
+}
+
+.card.flipped .back {
+  transform: rotateY(0);
+}
+.card-inner img{
+  height: 500px;
+  width: 900px;
+}
+.button button{
+  background-color: #fff;
+  color: black;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  margin: 0.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+.button button:hover{
+  background-color: #3498db;
+  color: white;
+}
+@media only screen and (max-width: 600px){
+  .card-inner img{
+    width: 400px;
+    height: 300px;
+  }
+}
