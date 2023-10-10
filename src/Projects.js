@@ -10,9 +10,9 @@ const Projects = () => {
       <div className="project-card">
         <h3>Project 1</h3>
         <p>
-        simple to-do list with HTML, CSS, and JavaScript
+        Cricket team website using HTML, CSS and JavaScript
         </p>
-        <a href="https://vijaykumar140220.github.io/lifecycle-in-js/">View Project</a>
+        <a href="https://vijaykumar140220.github.io/jollyboys/">View Project</a>
       </div>
       <div className="project-card">
         <h3>Project 2</h3>
@@ -31,9 +31,9 @@ const Projects = () => {
       <div className="project-card">
         <h3>Project 4</h3>
         <p>
-        Image Search Engine Using HTML, CSS and JavaScript
+        Weather App Using JavaScript
         </p>
-        <a href="https://vijaykumar140220.github.io/imagefindingwebsite/">View Project</a>
+        <a href="https://vijaykumar140220.github.io/weather/">View Project</a>
       </div>
       {/* Add more project cards as needed */}
     </section>
