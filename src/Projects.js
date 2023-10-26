@@ -19,7 +19,7 @@ const Projects = () => {
         <p>
         Stone, Paper and Scissor Game using JavaScript
         </p>
-        <a href="https://vijaykumar140220.github.io/stone-paper-scissor-game/">View Project</a>
+        <a href="https://game-stone-paper-scissor.netlify.app/">View Project</a>
       </div>
       <div className="project-card">
         <h3>Project 3</h3>
